@@ -10,9 +10,44 @@ labGuide.config(function ($mdThemingProvider) {
     var whiteBackground = $mdThemingProvider.extendPalette('grey', {
         '50': '#fefefe'
     });
+    $mdThemingProvider.definePalette('groundBreakers', {
+        '50': 'fee9e1',
+        '100': 'fcc8b5',
+        '200': 'faa484',
+        '300': 'f88052',
+        '400': 'f7642d',
+        '500': 'f54908',
+        '600': 'f44207',
+        '700': 'f23906',
+        '800': 'f03104',
+        '900': 'ee2102',
+        'A100': 'ffffff',
+        'A200': 'ffe4e1',
+        'A400': 'ffb5ae',
+        'A700': 'ff9e95',
+        'contrastDefaultColor': 'light',
+        'contrastDarkColors': [
+          '50',
+          '100',
+          '200',
+          '300',
+          '400',
+          'A100',
+          'A200',
+          'A400',
+          'A700'
+        ],
+        'contrastLightColors': [
+          '500',
+          '600',
+          '700',
+          '800',
+          '900'
+        ]
+    });
     $mdThemingProvider.definePalette('whiteBackground', whiteBackground);
     $mdThemingProvider.theme('default')
-        .primaryPalette('blue')
+        .primaryPalette('groundBreakers')
         .accentPalette('orange')
         .warnPalette('red')
         .backgroundPalette('whiteBackground');
