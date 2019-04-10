@@ -135,7 +135,7 @@ h1:not(.infra),
   margin-top: 2rem;
   line-height: 2.7rem;
   font-size: 2.527rem;
-  background-color:#c9d2d9;
+  background-color:#dee0e0;
   font-weight: bold;
   font-family: 'Tahoma', sans-serif;
   color:#15325a;
@@ -179,7 +179,7 @@ h3.first-in-section.minus::after {
 h3:not(.infra),
 .modest-h3:not(.infra) {
   font-size: 1.4rem;
-  background-color:#E0E8ED;
+  background-color:#dee0e0;
   font-weight: medium;
   font-family: 'Tahoma', sans-serif;
   color:#000000;
