@@ -1,3 +1,3 @@
 # Container Native Application Development Workshop
 
-## About this Workshop Test
+## About this Workshop
