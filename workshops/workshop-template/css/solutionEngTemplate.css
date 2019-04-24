@@ -138,7 +138,7 @@ h1:not(.infra),
   background-color:#dee0e0;
   font-weight: bold;
   font-family: 'Tahoma', sans-serif;
-  color:#15325a;
+  color:#636466;
   padding: 10px;
 
 
@@ -151,7 +151,7 @@ h2:not(.infra),
   font-size: 1.999rem;
   font-weight: bold;
   font-family: 'Tahoma', sans-serif;
-  color:#15325a;
+  color:#636466;
   margin-left: 15px;
 }
 
@@ -182,7 +182,7 @@ h3:not(.infra),
   background-color:#dee0e0;
   font-weight: medium;
   font-family: 'Tahoma', sans-serif;
-  color:#000000;
+  color:#636466;
     padding: 5px 5px 5px 5px;
     margin-left: 25px;
     position: relative;
@@ -233,7 +233,7 @@ textarea:not(.infra) {
   padding:1px;
    --border:1px solid #021a40;
    margin: 0;
-    box-shadow: 10px 10px 5px #888888;
+    /* box-shadow: 10px 10px 5px #888888; */
 
 }
 
@@ -277,7 +277,7 @@ h3:not(.infra),
 h4:not(.infra),
 h5:not(.infra),
 h6:not(.infra) {
-  font-family: Arimo, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1:not(.infra),

@@ -60,8 +60,8 @@ md-toolbar.md-hue-2:not(.md-menu-toolbar) {
 
 .menu-hamburger {
     padding: 4px 1px 1px 0px;
-    height: 20px;
-    width: 20px;
+    height: 23px;
+    width: 23px;
 }
 
 .float-right {
@@ -119,6 +119,7 @@ md-toolbar.md-hue-2:not(.md-menu-toolbar) {
 
 .md-button.md-groundBreakers-theme.md-accent.md-raised {
     background-color: rgb(245,73,8);
+    box-shadow: none;
 }
 
 .md-button.infra {
@@ -207,7 +208,7 @@ md-toolbar.layout-padding.infra {
     #labguide {
         margin: 0 auto;
         padding: 3.25rem 10em;
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: Arial, sans-serif;
         font-weight: 300;
     }
 }
